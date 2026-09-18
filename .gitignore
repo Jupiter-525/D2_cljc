@@ -1,0 +1,12 @@
+# 本地运行环境、缓存、数据和结果不作为源码提交。
+.venv/
+.venv-intel/
+__pycache__/
+.ruff_cache/
+*.py[cod]
+outputs/
+datasets/
+raw_images/
+test_images/
+annotations/
+weights/

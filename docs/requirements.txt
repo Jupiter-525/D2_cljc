@@ -1,0 +1,5 @@
+# 基础环境：数据准备、预测、评估和 CPU 运行。
+ultralytics==8.4.146
+numpy>=1.23.0
+Pillow>=7.1.2
+PyYAML>=5.3.1

@@ -1,0 +1,14 @@
+{
+  "files.exclude": {
+    ".venv": true,
+    ".venv-intel": true,
+    "**/__pycache__": true
+  },
+  "search.exclude": {
+    "**/.venv/**": true,
+    "**/.venv-intel/**": true,
+    "outputs/archive/**": true
+  },
+  "explorer.copyRelativePathSeparator": "/"
+}
+

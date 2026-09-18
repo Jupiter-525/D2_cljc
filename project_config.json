@@ -1,0 +1,30 @@
+{
+  "pretrained": "outputs/training/模型训练_20260916_144542_468182/weights/best.pt",
+  "model": "outputs/training/模型训练_20260917_081726_688518/weights/best.pt",
+  "data": "datasets/20260918_085540_473253/data.yaml",
+  "source": "test_images",
+  "epochs": 100,
+  "patience": 30,
+  "imgsz": 960,
+  "batch": 2,
+  "device": "cpu",
+  "training_device": "xpu:0",
+  "conf": 0.25,
+  "seed": 42,
+  "names": [
+    "residue",
+    "crack",
+    "undemolded"
+  ],
+  "class_names_zh": [
+    "残料",
+    "裂纹",
+    "未脱模"
+  ],
+  "split_ratios": {
+    "train": 0.7,
+    "val": 0.2,
+    "test": 0.1
+  },
+  "iou": 0.3
+}
